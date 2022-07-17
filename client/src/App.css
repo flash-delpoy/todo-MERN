@@ -97,9 +97,11 @@ input {
 }
 
 .list-group li:hover {
+    transition: all 0.5s;
     transform: scale(1.01);
 }
 
 button:hover {
+    transition: all 0.7s;
     transform: scale(1.1);
 }

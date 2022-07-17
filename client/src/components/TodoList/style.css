@@ -1,5 +1,5 @@
 .todo-enter-active {
-    animation: todo 0.8s ease-in alternate-reverse;
+    animation: todo 1.2s ease-in alternate-reverse;
 }
 
 .todo-exit-active {
