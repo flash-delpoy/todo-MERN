@@ -33,7 +33,7 @@ export class TodoApi {
 
   static async completeTodo(todo: Partial<ITodo>): Promise<void> {
     if (process.env.NODE_ENV === "production") {
-      axios.patch(`${getCurrentUrl()}/todos/${todo._id}`, todo);
+      axios.patch(`${getCurrentUrl()}/api/todos/${todo._id}`, todo);
     } else {
       axios.patch(`http://localhost:3001/api/todos/${todo._id}`, todo);
     }
