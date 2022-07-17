@@ -1,0 +1,20 @@
+.text {
+    text-align: justify;
+    font-weight: 300;
+}
+
+.title-completed {
+    opacity: 0.5;
+    text-decoration: line-through;
+    transition: opacity 0.3s ease-in-out;
+}
+
+@media (max-width: 767px) {
+    .todo-item {
+        flex-direction: column;
+        text-align: center;
+    }
+    .todo-item div:first-child {
+        margin-bottom: 10px;
+    }
+}

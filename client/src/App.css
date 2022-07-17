@@ -1,0 +1,97 @@
+/* e-Ukraine */
+
+@font-face {
+    font-family: "e-Ukraine";
+    src: url("/fonts/e-Ukraine/e-Ukraine-Bold.eot");
+    src: local("e-Ukraine Bold"), local("e-Ukraine-Bold"), url("/fonts/e-Ukraine/e-Ukraine-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/e-Ukraine/e-Ukraine-Bold.woff") format("woff"), url("/fonts/e-Ukraine/e-Ukraine-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "e-Ukraine";
+    src: url("/fonts/e-Ukraine/e-UkraineHead-Bold.eot");
+    src: local("e-UkraineHead Bold"), local("e-UkraineHead-Bold"), url("/fonts/e-Ukraine/e-UkraineHead-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/e-Ukraine/e-UkraineHead-Bold.woff") format("woff"), url("/fonts/e-Ukraine/e-UkraineHead-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "e-Ukraine";
+    src: url("/fonts/e-Ukraine/e-UkraineHead-Light.eot");
+    src: local("e-UkraineHead Light"), local("e-UkraineHead-Light"), url("/fonts/e-Ukraine/e-UkraineHead-Light.eot?#iefix") format("embedded-opentype"), url("/fonts/e-Ukraine/e-UkraineHead-Light.woff") format("woff"), url("/fonts/e-Ukraine/e-UkraineHead-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "e-Ukraine";
+    src: url("/fonts/e-Ukraine/e-UkraineHead-Medium.eot");
+    src: local("e-UkraineHead Medium"), local("e-UkraineHead-Medium"), url("/fonts/e-Ukraine/e-UkraineHead-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/e-Ukraine/e-UkraineHead-Medium.woff") format("woff"), url("/fonts/e-Ukraine/e-UkraineHead-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "e-Ukraine";
+    src: url("/fonts/e-Ukraine/e-UkraineHead-Regular.eot");
+    src: local("e-UkraineHead Regular"), local("e-UkraineHead-Regular"), url("/fonts/e-Ukraine/e-UkraineHead-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/e-Ukraine/e-UkraineHead-Regular.woff") format("woff"), url("/fonts/e-Ukraine/e-UkraineHead-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "e-Ukraine";
+    src: url("/fonts/e-Ukraine/e-UkraineHead-Thin.eot");
+    src: local("e-UkraineHead Thin"), local("e-UkraineHead-Thin"), url("/fonts/e-Ukraine/e-UkraineHead-Thin.eot?#iefix") format("embedded-opentype"), url("/fonts/e-Ukraine/e-UkraineHead-Thin.woff") format("woff"), url("/fonts/e-Ukraine/e-UkraineHead-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "e-Ukraine";
+    src: url("/fonts/e-Ukraine/e-Ukraine-Light.eot");
+    src: local("e-Ukraine Light"), local("e-Ukraine-Light"), url("/fonts/e-Ukraine/e-Ukraine-Light.eot?#iefix") format("embedded-opentype"), url("/fonts/e-Ukraine/e-Ukraine-Light.woff") format("woff"), url("/fonts/e-Ukraine/e-Ukraine-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "e-Ukraine";
+    src: url("/fonts/e-Ukraine/e-UkraineHead-UltraLight.eot");
+    src: local("e-UkraineHead UltraLight"), local("e-UkraineHead-UltraLight"), url("/fonts/e-Ukraine/e-UkraineHead-UltraLight.eot?#iefix") format("embedded-opentype"), url("/fonts/e-Ukraine/e-UkraineHead-UltraLight.woff") format("woff"), url("/fonts/e-Ukraine/e-UkraineHead-UltraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "e-Ukraine";
+    src: url("/fonts/e-Ukraine/e-Ukraine-Medium.eot");
+    src: local("e-Ukraine Medium"), local("e-Ukraine-Medium"), url("/fonts/e-Ukraine/e-Ukraine-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/e-Ukraine/e-Ukraine-Medium.woff") format("woff"), url("/fonts/e-Ukraine/e-Ukraine-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "e-Ukraine";
+    src: url("/fonts/e-Ukraine/e-Ukraine-Thin.eot");
+    src: local("e-Ukraine Thin"), local("e-Ukraine-Thin"), url("/fonts/e-Ukraine/e-Ukraine-Thin.eot?#iefix") format("embedded-opentype"), url("/fonts/e-Ukraine/e-Ukraine-Thin.woff") format("woff"), url("/fonts/e-Ukraine/e-Ukraine-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "e-Ukraine";
+    src: url("/fonts/e-Ukraine/e-Ukraine-UltraLight.eot");
+    src: local("e-Ukraine UltraLight"), local("e-Ukraine-UltraLight"), url("/fonts/e-Ukraine/e-Ukraine-UltraLight.eot?#iefix") format("embedded-opentype"), url("/fonts/e-Ukraine/e-Ukraine-UltraLight.woff") format("woff"), url("/fonts/e-Ukraine/e-Ukraine-UltraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+.App {
+    font-family: "e-Ukraine", sans-serif;
+}
+
+input {
+    font-weight: 300 !important;
+}
