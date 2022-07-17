@@ -23,10 +23,10 @@ app.use("/api", todoRoutes);
 
 app.use(errorMiddleware);
 
-// app.use(express.static(__dirname + "../../../client/build"));
-// app.get("*", (_, res) => {
-//     res.sendFile(path.join(__dirname + "../../../client/build/index.html"));
-// });
+app.use(express.static(__dirname + "../../../client/build"));
+app.get("*", (_, res) => {
+    res.sendFile(path.join(__dirname + "../../../client/build/index.html"));
+});
 
 connectDb()
     .on("error", (error) => console.log(error.message))

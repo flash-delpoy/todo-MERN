@@ -14,8 +14,7 @@ export const todoReducer = (
       return { ...state, todos: action.payload };
 
     case ITodoActionTypes.CREATE_TODO_SUCCESS:
-      console.log( { todos: [action.payload, ...state.todos, ] })
-      return { todos: [action.payload, ...state.todos, ] };
+      return { todos: [action.payload, ...state.todos] };
 
     case ITodoActionTypes.COMPLETE_TODO_SUCCESS: {
       const newTodos = [...state.todos];

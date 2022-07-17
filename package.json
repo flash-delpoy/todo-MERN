@@ -1,0 +1,33 @@
+{
+    "name": "todo_app",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "server:install": "cd server && npm ci",
+        "client:install": "cd client && npm ci",
+        "install": "npm run server:install && npm run client:install",
+        "start": "cd server && npm run start",
+        "build": "cd client && npm run build",
+        "server": "cd server && npm run dev",
+        "client": "cd client && npm run start",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "rebuild": "set NODE_OPTIONS=--max_old_space_size=4096 && npm run build && npm run server "
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/flash-delpoy/todo-MERN.git"
+    },
+    "keywords": [
+        "Todo",
+        "app",
+        "user",
+        "auth"
+    ],
+    "author": "Vladyslav Labenskyi",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/flash-delpoy/todo-MERN/issues"
+    },
+    "homepage": "https://github.com/flash-delpoy/todo-MERN#readme"
+}
