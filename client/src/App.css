@@ -95,3 +95,11 @@
 input {
     font-weight: 300 !important;
 }
+
+.list-group li:hover {
+    transform: scale(1.01);
+}
+
+button:hover {
+    transform: scale(1.1);
+}

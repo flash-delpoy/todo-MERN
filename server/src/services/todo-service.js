@@ -5,7 +5,8 @@ class TodoService {
     async getTodo(userID) {
         // return await TodoModel.find({ userID: userID });
         return await TodoModel.find().sort([
-            ["done", 1]
+            ["done", 1],
+            ["createdAt", -1],
         ]);
     }
 
